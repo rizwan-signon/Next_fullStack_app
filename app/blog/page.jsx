@@ -1,10 +1,80 @@
 import React from "react";
-
+import Image from "next/image";
+import Link from "next/link";
 const Blog = () => {
   return (
-    <div>
-      <h1>this is blog page </h1>
-    </div>
+    <section className="mt-[200px] ">
+      <div className="max-w-6xl mx-auto">
+        <Link href="blog/post1" className="flex items-center">
+          <div className="flex items-start gap-6">
+            <div className="w-1/2 flex flex-col gap-6 shadow-md">
+              <h1>test </h1>
+              <p>description</p>
+            </div>
+            <div className="w-1/2">
+              <Image
+                src="/img-4.jpg"
+                alt="image"
+                width={500}
+                height={450}
+                className="rounded-xl"
+              />
+            </div>
+          </div>
+        </Link>
+        <Link href="blog/post1" className="flex items-center">
+          <div className="flex items-start gap-6">
+            <div className="w-1/2 flex flex-col gap-6 shadow-md">
+              <h1>test </h1>
+              <p>description</p>
+            </div>
+            <div className="w-1/2">
+              <Image
+                src="/img-4.jpg"
+                alt="image"
+                width={500}
+                height={450}
+                className="rounded-xl"
+              />
+            </div>
+          </div>
+        </Link>
+        <Link href="blog/post1" className="flex items-center">
+          <div className="flex items-start gap-6">
+            <div className="w-1/2 flex flex-col gap-6 shadow-md">
+              <h1>test </h1>
+              <p>description</p>
+            </div>
+            <div className="w-1/2">
+              <Image
+                src="/img-4.jpg"
+                alt="image"
+                width={500}
+                height={450}
+                className="rounded-xl"
+              />
+            </div>
+          </div>
+        </Link>
+        <Link href="blog/post1" className="flex items-center">
+          <div className="flex items-start gap-6">
+            <div className="w-1/2 flex flex-col gap-6 shadow-md">
+              <h1>test </h1>
+              <p>description</p>
+            </div>
+            <div className="w-1/2">
+              <Image
+                src="/img-4.jpg"
+                alt="image"
+                width={500}
+                height={450}
+                className="rounded-xl"
+              />
+            </div>
+          </div>
+        </Link>
+      </div>
+    </section>
   );
 };
 
