@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Contact = () => {
   return (
-    <section className="flex items-center justify-center mt-24">
+    <section className="flex items-center justify-center py-24">
       <div>
         <h1 className="text-center text-5xl capitalize font-bold mb-16 ">
           lets keep in touch
@@ -20,12 +20,12 @@ const Contact = () => {
             <input
               type="text"
               placeholder="name"
-              className="p-3 rounded-lg outline-none"
+              className="p-3 rounded-lg outline-none bg-gray-200"
             />
             <input
               type="text"
               placeholder="email"
-              className="p-3 rounded-lg outline-none"
+              className="p-3 rounded-lg outline-none bg-gray-200"
             />
             <textarea
               id="w3review"
@@ -33,7 +33,7 @@ const Contact = () => {
               value="hello"
               rows="4"
               cols="50"
-              className="h-[250px] text-gray-500 rounded-lg p-2"
+              className="h-[250px] text-gray-500 rounded-lg p-2 bg-gray-200"
             >
               hello
             </textarea>

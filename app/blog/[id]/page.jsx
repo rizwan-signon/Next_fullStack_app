@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const PostDetails = () => {
   return (
-    <section className="mt-[100px]">
+    <section className="pt-[110px]">
       <div className="max-w-6xl mx-auto flex flex-col gap-10">
         <div className="flex items-start gap-7">
           <div className="w-1/2 text-justify flex flex-col gap-4">

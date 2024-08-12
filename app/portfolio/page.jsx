@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 const Portfolio = () => {
   return (
-    <section className="mt-[100px]">
+    <section className="pt-[100px] min-h-screen">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-7xl capitalize font-bold my-10 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
           our works

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const About = () => {
   return (
-    <section className=" mt-20">
+    <section className="py-16">
       <div className="max-w-6xl mx-auto ">
         <div className="max-w-6xl mx-auto h-[300px] bg-green-400 relative">
           <Image

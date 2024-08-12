@@ -1,10 +1,15 @@
+"use client";
 import React from "react";
 import { MdOutlineLightMode, MdDarkMode } from "react-icons/md";
-
+import { ThemeContext } from "@/contextApi/ThemeContext";
+import { useContext } from "react";
 const DarkMode = () => {
-  const mode = "dark";
+  const { toggleMode, mode } = useContext(ThemeContext);
   return (
-    <div className="flex items-center gap-2 border-2 p-2 rounded-2xl relative">
+    <div
+      onClick={toggleMode}
+      className="flex items-center gap-2 border-2 p-2 rounded-2xl relative"
+    >
       <div>
         <MdOutlineLightMode />
       </div>
