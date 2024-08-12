@@ -13,7 +13,7 @@ const Contact = () => {
               alt="image"
               width={400}
               height={600}
-              className="h-[400px] w-[400px] rounded-full "
+              className="h-[400px] w-[400px] rounded-full object-cover"
             />
           </div>
           <div className="w-1/2 flex flex-col gap-3">

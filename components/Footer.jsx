@@ -13,7 +13,7 @@ const Footer = () => {
           </h1>
         </div>
 
-        <ul className=" flex items-center gap-4 ">
+        <ul className=" flex items-center gap-4 text-2xl">
           <li>
             <Link href={"/"}>
               <FaFacebook />
