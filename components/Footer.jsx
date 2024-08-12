@@ -4,7 +4,7 @@ import { FaFacebook, FaLinkedin, FaGithubAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="min-w-full fixed bottom-0 py-3 text-xs">
+    <footer className="min-w-full fixed bottom-0 z-30 py-3 text-xs bg-slate-800">
       <nav className="flex items-center justify-between max-w-6xl mx-auto">
         <div>
           <h1>

@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 const Navbar = () => {
   return (
-    <header className="min-w-full bg-blue-950 fixed top-0 ">
+    <header className="min-w-full bg-blue-950 fixed top-0 z-30">
       <nav className=" max-w-6xl mx-auto flex items-center h-[60px]">
         <div className="w-1/2">
           <Link href="/">
