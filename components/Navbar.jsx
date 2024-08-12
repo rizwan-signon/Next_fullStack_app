@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import DarkMode from "./DarkMode";
 const Navbar = () => {
   return (
     <header className="min-w-full bg-blue-950 fixed top-0 z-30">
@@ -36,6 +37,7 @@ const Navbar = () => {
           <li>
             <Link href={"/dashboard"}> dashboard</Link>
           </li>
+          <DarkMode />
           <li>
             <Link href={"/dashboard/login"}>
               <button className=" p-2 rounded-lg uppercase bg-blue-700">
