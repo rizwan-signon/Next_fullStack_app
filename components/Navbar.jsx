@@ -39,7 +39,7 @@ const Navbar = () => {
           </li>
           <DarkMode />
           <li>
-            <Link href={"/dashboard/login"}>
+            <Link href={"/dashboard/register"}>
               <button className=" p-2 rounded-lg uppercase bg-blue-700">
                 login
               </button>
