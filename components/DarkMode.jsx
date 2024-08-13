@@ -8,7 +8,7 @@ const DarkMode = () => {
   return (
     <div
       onClick={toggleMode}
-      className="flex items-center gap-2 border-2 p-2 rounded-2xl relative"
+      className="flex items-center gap-2 border-2 p-2 rounded-2xl relative cursor-pointer"
     >
       <div>
         <MdOutlineLightMode />

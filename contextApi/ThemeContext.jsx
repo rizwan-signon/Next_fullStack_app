@@ -1,5 +1,4 @@
 "use client";
-
 import { createContext, useState } from "react";
 export const ThemeContext = createContext();
 const ThemeProvider = ({ children }) => {
@@ -11,7 +10,7 @@ const ThemeProvider = ({ children }) => {
     <ThemeContext.Provider value={{ toggleMode, mode }}>
       <div
         className={`${
-          mode === "dark" ? "bg-black text-white" : "bg-white text-black"
+          mode === "dark" ? " text-white bg-green-400" : "bg-white text-black"
         }`}
       >
         {children}
